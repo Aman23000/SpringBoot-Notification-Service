@@ -61,10 +61,14 @@ https://github.com/Aman23000/SDP_Assignment_6.git
 The Observer Design Pattern is central to the application, facilitating the interaction between the `Shop` (subject) and `Driver` (observers). The Factory Design Pattern is used to create notification services dynamically, allowing for future extensibility.
 
 # Key Features
-"*" Observer Pattern: Enables seamless notification to all drivers when a shop creates a new delivery request.
-** Factory Pattern: Simplifies the creation of notification services, supporting Email and SMS notifications.
-** Logging: Implements Log4j for effective logging and debugging.
-** Error Handling: Robust validation prevents invalid data and enhances system stability.
+
+Observer Pattern: Enables seamless notification to all drivers when a shop creates a new delivery request.
+
+Factory Pattern: Simplifies the creation of notification services, supporting Email and SMS notifications.
+
+Logging: Implements Log4j for effective logging and debugging.
+
+Error Handling: Robust validation prevents invalid data and enhances system stability.
 
 
 # Maven Commands
