@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/Users/amanjain/Desktop/MSCS/SDP_Assignment_6/src/main/java/com/example/deliverysystem/DeliverySystemMain.java">
+<error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="6" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="7" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="7" column="29" severity="error" message="Parameter args should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="8" severity="error" message="Line is longer than 80 characters (found 113)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/Users/amanjain/Desktop/MSCS/SDP_Assignment_6/src/main/java/com/example/deliverysystem/notification/NotificationFactory.java">
+<error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="4" severity="error" message="Line is longer than 80 characters (found 86)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="4" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="4" column="73" severity="error" message="Parameter type should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" severity="error" message="Line is longer than 80 characters (found 93)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/Users/amanjain/Desktop/MSCS/SDP_Assignment_6/src/main/java/com/example/deliverysystem/notification/DeliveryNotificationService.java">
+<error line="4" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="/Users/amanjain/Desktop/MSCS/SDP_Assignment_6/src/main/java/com/example/deliverysystem/notification/EmailNotificationService.java">
+<error line="4" column="5" severity="error" message="Class &apos;EmailNotificationService&apos; looks like designed for extension (can be subclassed), but the method &apos;notifyDriver&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;EmailNotificationService&apos; final or making the method &apos;notifyDriver&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="5" column="30" severity="error" message="Parameter message should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/amanjain/Desktop/MSCS/SDP_Assignment_6/src/main/java/com/example/deliverysystem/notification/SMSNotificationService.java">
+<error line="4" column="5" severity="error" message="Class &apos;SMSNotificationService&apos; looks like designed for extension (can be subclassed), but the method &apos;notifyDriver&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SMSNotificationService&apos; final or making the method &apos;notifyDriver&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="5" column="30" severity="error" message="Parameter message should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/amanjain/Desktop/MSCS/SDP_Assignment_6/src/main/java/com/example/deliverysystem/models/DeliveryRequest.java">
+<error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="4" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="6" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="8" severity="error" message="Line is longer than 80 characters (found 88)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="8" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="8" column="28" severity="error" message="Parameter customerName should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="8" column="35" severity="error" message="&apos;customerName&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="8" column="49" severity="error" message="Parameter address should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="8" column="56" severity="error" message="&apos;address&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="8" column="65" severity="error" message="Parameter packageDetails should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="8" column="72" severity="error" message="&apos;packageDetails&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="14" column="5" severity="error" message="Class &apos;DeliveryRequest&apos; looks like designed for extension (can be subclassed), but the method &apos;getCustomerName&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;DeliveryRequest&apos; final or making the method &apos;getCustomerName&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="14" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="18" column="5" severity="error" message="Class &apos;DeliveryRequest&apos; looks like designed for extension (can be subclassed), but the method &apos;getAddress&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;DeliveryRequest&apos; final or making the method &apos;getAddress&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="18" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="22" column="5" severity="error" message="Class &apos;DeliveryRequest&apos; looks like designed for extension (can be subclassed), but the method &apos;getPackageDetails&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;DeliveryRequest&apos; final or making the method &apos;getPackageDetails&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="22" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="26" column="5" severity="error" message="Class &apos;DeliveryRequest&apos; looks like designed for extension (can be subclassed), but the method &apos;toString&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;DeliveryRequest&apos; final or making the method &apos;toString&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="28" column="35" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="29" column="56" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="30" column="48" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="31" column="62" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+</file>
+<file name="/Users/amanjain/Desktop/MSCS/SDP_Assignment_6/src/main/java/com/example/deliverysystem/observers/Observable.java">
+<error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="7" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="9" column="5" severity="error" message="Class &apos;Observable&apos; looks like designed for extension (can be subclassed), but the method &apos;addObserver&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Observable&apos; final or making the method &apos;addObserver&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="9" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="9" column="29" severity="error" message="Parameter observer should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="13" column="5" severity="error" message="Class &apos;Observable&apos; looks like designed for extension (can be subclassed), but the method &apos;removeObserver&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Observable&apos; final or making the method &apos;removeObserver&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="13" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="13" column="32" severity="error" message="Parameter observer should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="17" column="5" severity="error" message="Class &apos;Observable&apos; looks like designed for extension (can be subclassed), but the method &apos;notifyObservers&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Observable&apos; final or making the method &apos;notifyObservers&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="17" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="17" column="33" severity="error" message="Parameter message should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/amanjain/Desktop/MSCS/SDP_Assignment_6/src/main/java/com/example/deliverysystem/observers/Observer.java">
+<error line="4" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+</checkstyle>
