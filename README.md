@@ -1,18 +1,6 @@
-
-| CS-665       | Software Design & Patterns |
-|--------------|----------------------------|
-| Name         | AMAN JAIN                  |
-| Date         | 03/23/2000                 |
-| Course       | Fall 2024                  |
-| Assignment # | 6                          |
-
-# Assignment Overview
 The Delivery System is a Java-based application designed to coordinate delivery requests between retailers and freelance drivers. Shops create delivery requests, which are then broadcast to all subscribed drivers. This system ensures efficient and streamlined delivery operations while adhering to object-oriented principles.
 
 The implementation utilizes the **Observer Design Pattern**, enabling flexible and scalable interactions between shops (subjects) and drivers (observers). The project follows best practices, adhering to the **SOLID Principles** and the **Google Java Style Guide**.
-
-# GitHub Repository Link:
-https://github.com/Aman23000/SDP_Assignment_6.git
 
 # Implementation Description 
 
